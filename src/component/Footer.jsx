@@ -5,23 +5,16 @@ const Footer = () => {
     <footer className="footer">
         <div className="footer-container">
             <div className="footer-content-container">
-                <h2>OCTADMIN</h2>
+                <h2> Edinify </h2>
                 <div className="social-media-icons">
-                    <i className="fa-brands fa-facebook-f"></i>
-                    <i className="fa-brands fa-twitter"></i>
-                    <i className="fa-brands fa-instagram"></i>
-                    <i className="fa-brands fa-google-plus-g"></i>
+                    <i className="fa-brands fa-facebook-f">  </i>
+                     <a href="https://instagram.com/ed_nify?igshid=MzRlODBiNWFlZA==" target='blank'>
+                     <i className="fa-brands fa-instagram"> </i>
+                    </a> 
                 </div>
             </div>
-            <div className="footer-menu">
-                <a href="/">About</a>
-                <a href="/">Terms & Conditions</a>
-                <a href="/">Privacy Policy</a>
-                <a href="/">Contact</a>
-            </div>
             <div className="copy-text">
-                <p>Copyright ©2018 octadmin. Designed by</p>
-                <a href="/" target="_blank" >Octa Themes</a>
+                <p>Copyright ©2023</p>
             </div>
         </div>
       </footer>

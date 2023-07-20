@@ -16,7 +16,6 @@ html {
 
 body {
   background-color: #f2f2f2;
-  padding-top: 60px;
 }
 /* header  */
 
@@ -62,6 +61,7 @@ body {
   color: white;
   cursor: pointer;
 }
+
 .navbar a {
   font-size: 16px;
   font-weight: 500;
@@ -70,6 +70,20 @@ body {
   transition: 0.5s ease;
   display: inline-block;
 }
+
+
+.navbar a:nth-of-type(2){
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 20px;
+  box-shadow: 0px 5px 25px -3px #3867d6;
+  color: #3867d6;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+
 .navbar a {
   color: white;
 }
@@ -139,18 +153,24 @@ body {
 
 .main{
     background-color:#567dd7 ;
-    /* background-color: #F8FBFF; */
+    height: 70vh;
 }
+
+.main
 .container {
-    padding: 10rem 40px 0 40px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center
 }
+
+
 .main .main-header-content{
     color: white;
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    margin-left: 30px;
 }
 .main .main-header-content h4{
     font-size: 2rem;
@@ -158,35 +178,41 @@ body {
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
+
+.main-header-content h4 span{
+  font-size: 40px;
+  line-height: 90px;
+}
+
 .main .main-header-content h1{
     padding: 30px 0 ;
     font-size: 2.5rem;
     font-weight: 500;
 }
 .main .main-header-content p{
-    margin-bottom: 1rem;
-    font-size: 12px;
-    font-weight: 400;
+   font-size: 20px;
+   margin-bottom: 20px;
 }
-.main .main-header-demo-buttons{
-    display: flex;
+
+
+
+.main-header-demo-buttons{
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    margin-left: 30px; */
 }
 .main .main-header-demo-buttons a{
     padding: 5px 15px;
     border-radius: 50px;
-    font-size: 14px;
-
-
+    font-size: 20px;
 }
 .main .main-header-demo-buttons .demo-btn{
-    margin: 5px;
     box-shadow: 0px 5px 25px -3px #3867d6;
     color: #3867d6;
     background-color: white;
     cursor: pointer;
+    padding: 10px 20px;
 }
 .main .main-header-demo-buttons .demo-btn:hover{
     color: white;
@@ -207,11 +233,12 @@ body {
 .main .main-header-content-img{
     display: flex;
     align-items: center;
-    width: 100%;
-    margin-top: 20px;
+    width: 40%;
 }
 .main .main-header-content-img img{
     width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 
 .demo{
@@ -243,8 +270,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    height: 150px;
 }
 .demo .demo-dashboard .dashboard-header h5{
     color: #536c79;
@@ -264,7 +290,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 25%; */
+    width: 30%;
     margin-left: 20px;
     box-shadow: 0px 0px 20px -4px #c2cfd6;
 }
@@ -280,7 +306,7 @@ body {
 
 .demo .demo-dashboard-container .demo-dash-card-container{
     padding: 15px;
-    align-items: center;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,12 +389,20 @@ body {
   .features .container{
     width: 100%;
   }
+
+
   .features-header-content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 100px;
   }
+
+
+
+
    .features-header-content h3{
     color: #3867d6;
     font-size: 20px;
@@ -536,6 +570,7 @@ margin: 40px 0;
   padding: 12px;
   border-radius: 8px;
   cursor: pointer;
+  margin: 10px;
 }
 
 .footer .footer-container .footer-content-container .social-media-icons i:hover{
@@ -588,7 +623,7 @@ background-color:#2456cd ;
     
 }
 
-@media screen and (max-width: 990px) {
+/* @media screen and (max-width: 990px) {
   .header {
     display: none;
   }
@@ -603,8 +638,8 @@ background-color:#2456cd ;
     width: 100%;
     margin: 0;
     margin-bottom: 16px;
-}
-
+} */
+/* 
 .features-cards{
   grid-template-columns: repeat(2,auto);
 }
@@ -621,7 +656,7 @@ background-color:#2456cd ;
 }
 
   
-}
+} */
 
 
 @media screen and (max-width:480px) {
@@ -689,7 +724,7 @@ a {
 .demo-form-section {
   background-color: var(--bg-indigo-50);
   height: 100%;
-  margin-top: 30px;
+  padding: 120px 0px 50px 0px;
 }
 .demo-form-section .demo-form-con {
   background-color: #fff;

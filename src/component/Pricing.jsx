@@ -6,49 +6,39 @@ const Pricing = () => {
       <div className="pricing-container">
         <div className="pricing-content">
             <div className="pricing-content-container">
-            <span>30</span>
+            <span>4</span>
             <div className="color-theme">
                 <i className="fa-solid fa-gear"></i>
-                <p>COLOR THEMES</p>
+                <p> Təhsil mərkəzləri </p>
             </div>
             </div>
         </div>
         <div className="pricing-content">
             <div className="pricing-content-container">
-            <span>800</span>
+            <span>1</span>
             <div className="color-theme">
                 <i className="fa-solid fa-gear"></i>
-                <p>COLOR THEMES</p>
+                <p> Məktəbə qədər təhsil müəssisəsi </p>
             </div>
             </div>
         </div>
         <div className="pricing-content">
             <div className="pricing-content-container">
-            <span>300</span>
+            <span>400</span>
             <div className="color-theme">
                 <i className="fa-solid fa-gear"></i>
-                <p>COLOR THEMES</p>
+                <p> Tələbə və Müəllim </p>
             </div>
             </div>
         </div>
         <div className="pricing-content">
             <div className="pricing-content-container">
-            <span>500</span>
+            <span> 1000 </span>
             <div className="color-theme">
                 <i className="fa-solid fa-gear"></i>
-                <p>COLOR THEMES</p>
+                <p> Aylıq dərs saatı </p>
             </div>
         </div>
-        </div>
-      </div>
-      <div className="price-exclusive">
-          <div className="price-exc-container">
-          <h3 className="text-theme">EXCLUSIVE ONLY ON ENVATO MARKETPLACE.</h3>
-          <p>SEE THEMEFOREST STANDARD LICENSES & EXTENDED LICENSES FOR LICENSING.</p>
-          <div className="price-exc-btn">
-            <a href="/">License Details</a>
-            <a href="/">Buy Now ($14)</a>
-          </div>
         </div>
       </div>
     </section>

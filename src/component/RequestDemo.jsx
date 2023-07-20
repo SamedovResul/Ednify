@@ -6,21 +6,14 @@ const RequestDemo = () => {
         <section className="demo-form-section">
             <div className="demo-form-con">
                 <div className="form-title">
-                    <h2>Welcome to Ednify!</h2>
+                    <h2> Xoş gəldiniz </h2>
                 </div>
 
                 <div className="form-description">
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur 
-                        adipisicing elit. 
-                        Voluptatum, nobis?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quod, 
-                        cupiditate laborum labore corporis fugit?
+                      Edinify ilə siz tələbə qeydiyyatı, müəllimlərin qeydiyyatı,
+                       kursun idarə edilməsi, qiymətləndirmə və statistik məlumatları asanlıqla 
+                       idarə edə bilərsiniz.
                     </p>
                 </div>
 
@@ -29,97 +22,62 @@ const RequestDemo = () => {
                 <form action="">
                     <div className="form-section">
                         <h4 htmlFor=''>
-                            1. Which Course features do you want to enable?
-                            <span>Multiple choice</span>
+                            1.  Təhsil mərkəziniz üçün hansı xüsusiyyətləri+ aktiv etmək istəyirsiniz?
                         </h4>
 
                         <div className="choices-con">
-                            <div className="choice-btn">Attendance</div>
-                            <div className="choice-btn">Communications</div>
-                            <div className="choice-btn">Attendance</div>
-                            <div className="choice-btn">Schedules & Shifts</div>
-                            <div className="choice-btn">Attendance</div>
-                            <div className="choice-btn">Schedules & Shifts</div>
+                            <div className="choice-btn">Tələbə qeydiyyatı</div>
+                            <div className="choice-btn">Ödəniş bildirişləri</div>
+                            <div className="choice-btn">Müəllim qeydiyyatı</div>
+                            <div className="choice-btn">Müəllim / Tələbə cədvəlləri</div>
+                            <div className="choice-btn">Davamiyyətə nəzarət</div>
+                            <div className="choice-btn">Ad günü bildirişləri</div>
                         </div>
                     </div>
                 
-                    <div className="form-section">
-                        <h4 for="">
-                            2. How did you know about Clockster?
-                            <span>Multiple choice</span>
-                        </h4>
-
-                        <div className="choices-con">
-                            <div className="choice-btn">Attendance</div>
-                            <div className="choice-btn">Communications</div>
-                            <div className="choice-btn">Attendance</div>
-                            <div className="choice-btn">Schedules & Shifts</div>
-                            <div className="choice-btn">Attendance</div>
-                            <div className="choice-btn">Schedules & Shifts</div>
-                        </div>
-                    </div>
 
                     <div className="horizontal-divider"></div>
 
                     <div className="form-section">
                         <h4 for="">
-                            3. About the company
+                            2. Şirkət haqqında
                         </h4>
 
                         <div className="input-boxes-con">
                         <div className="input-box">
-                            <label for="">Company Name</label>
+                            <label for="">Şirkət Adı</label>
                             <input type="text"/>
                         </div>
 
+
                         <div className="input-box">
-                            <label for="">Business area</label>
-                            <select name="" id="">
+                            <label for="">Tələbə sayı</label>
+                            <select>
                                 <option></option>
-                                <option>1. Hotels</option>
-                                <option>2. Medical centers and clinics</option>
-                                <option>3. Hotels</option>
-                                <option>4. Medical centers and clinics</option>
+                                <option>20-dən azdır</option>
+                                <option>21 ilə 50 arasında</option>
+                                <option>51-dən 100-ə qədər</option>
+                                <option>101-dən 500-ə qədər</option>
+                                <option>500-dən çox</option>
                             </select>
                         </div>
 
-                        <div className="input-box">
-                            <label for="">Number of employees</label>
-                            <select>
-                                <option></option>
-                                <option>less than 20</option>
-                                <option>21 to 50</option>
-                                <option>51 to 100</option>
-                                <option>101 to 500</option>
-                                <option>more than 500</option>
-                            </select>
-                        </div>
-
-                        <div className="input-box">
-                            <label for="">Number of outlets</label>
-                            <select>
-                                <option></option>
-                                <option>1</option>
-                                <option>2-3</option>
-                                <option>4 or more</option>
-                            </select>
-                        </div>
                         </div>
                     </div>
                 
                     <div className="form-section">
                         <h4 for="">
-                            4. Contact information
+                            3.Əlaqə məlumatı
                         </h4>
 
                         <div className="input-boxes-con">
                         <div className="input-box">
-                            <label for="">First name</label>
+                            <label for="">Ad</label>
                             <input type="text" />
                         </div>
 
                         <div className="input-box">
-                            <label for="">Last name</label>
+                            <label for="">Soyad</label>
                             <input type="text" />
                         </div>
 
@@ -127,21 +85,13 @@ const RequestDemo = () => {
                             <label for="">Email</label>
                             <div className="input-with-checkbox">
                                 <input type="email" />
-                                <div className="checkbox-con">
-                                    <input type="checkbox" id="emailCheckbox" name="email" />
-                                    <label for="emailCheckbox">Please send me an offer by email</label>
-                                </div>
                             </div>
                         </div>
 
                         <div className="input-box">
-                            <label for="">Phone</label>
+                            <label for="">Telefon</label>
                             <div className="input-with-checkbox">
                                 <input type="tel" />
-                                <div className="checkbox-con">
-                                    <input type="checkbox" id="telCheckbox" name="tel"/>
-                                    <label for="telCheckbox">Just text, no call</label>
-                                </div>
                             </div>
                         </div>
                         </div>
@@ -151,8 +101,8 @@ const RequestDemo = () => {
 
                     <div className="form-section">
                         <h4 htmlFor="">
-                            5. What time may we contact you?
-                            <span>Multiple choice</span>
+                            5. Sizinlə nə vaxt əlaqə saxlaya bilərik?
+                            <span>Çoxlu seçim</span>
                         </h4>
 
                         <div className="choices-con">
@@ -161,7 +111,7 @@ const RequestDemo = () => {
                             <div className="choice-btn">15:00-17:00</div>
                         </div>
 
-                        <p>*We shall contact you on business days (Monday-Friday)</p>
+                        <p>*İş günləri (bazar ertəsi-cümə) sizinlə əlaqə saxlayacağıq.</p>
                     </div>
 
                     <button className="submit-btn" type="submit">Send Request </button>

@@ -5,45 +5,40 @@ const Feature = () => {
     <section className="features" id="features">
         <div className="container">
             <div className="features-header-content">
-                <h3>AWESOME FEATURES</h3>
-                <p>Almost Covered Everything</p>
-                <div className="line"></div>
+                <h3> Funksionallıqlar </h3>
                
             </div>
             <div className="features-cards">
                 <div className="features-card">
                     <i className="fa-solid fa-gear"></i>
-                 <h5>30+ Color Themes</h5>
-                    <p>We have included 30+ pre-defined Awesome color schemes with Octa Admin.</p>
+                 <h5> Tələbə qeydiyyatı </h5>
+                    
                 </div>
                 <div className="features-card">
                     <i className="fa-solid fa-gear"></i>
-                    <h5>Bootstrap 4x</h5>
-                    <p>Its been made with Bootstrap 4 and full responsive layout.</p>
+                    <h5> Ödəniş bildirişləri </h5>
+                    
                 </div>
                 <div className="features-card">
                     <i className="fa-solid fa-gear"></i>
-                    <h5>Lots of Widgets</h5>
-                    <p>Wide range of Modern Widgets are available with Octa Admin Package.</p>
+                    <h5>Müəllim qeydiyyatı</h5>
+                    
                 </div>
                 <div className="features-card">
                     <i className="fa-solid fa-gear"></i>
-                    <h5>Lots of Widgets</h5>
-                    <p>Wide range of Modern Widgets are available with Octa Admin Package.</p>
+                    <h5> Müəllim / Tələbə cədvəlləri </h5>
+                    
                 </div>
                 <div className="features-card">
                     <i className="fa-solid fa-gear"></i>
-                    <h5>Lots of Widgets</h5>
-                    <p>Wide range of Modern Widgets are available with Octa Admin Package.</p>
+                    <h5> Davamiyyətə nəzarət </h5>
+                    
                 </div>
                 <div className="features-card">
                     <i className="fa-solid fa-gear"></i>
-                    <h5>Lots of Widgets</h5>
-                    <p>Wide range of Modern Widgets are available with Octa Admin Package.</p>
+                    <h5> Ad günü bildirişləri </h5>
+                    
                 </div>
-            </div>
-            <div className="features-btn">
-                <a href="/">$14 Only Buy it now</a>
             </div>
         </div>
       </section>

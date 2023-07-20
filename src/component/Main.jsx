@@ -1,24 +1,23 @@
 import React from 'react'
+import headimg from './img/miguelangel-miquelena-Rc-4YdHRrOs-unsplash.jpg'
+
 
 const Main = () => {
   return (
     <section className="main" id="main">
         <div className="container">
           <div className="main-header-content">
-            <h4>MODERN MINIMAL UI KIT <br/>
-                FOR YOUR NEXT HTML5 APPLICATION</h4>
-                <h1>octAdmin</h1>
-                <p>Powerfull Ultimate Clean Modern looking All in One Bootstrap 4 Admin Teamplate
-                </p>
-          </div>
-          <div className="main-header-demo-buttons">
-            <a href="/" className="demo-btn">See The Demos</a>
-            <a  href="/" className="doc-btn">Online Documentation</a>
+            <h4> Biznesinizi sürətli, dəqiq və rahat     
+              <br /> <span > idarə edin</span>  </h4>
+                <p> Davamiyyət, tapşırıqlar, əmək haqqları üçün vahid platforma. </p>
+                <div className="main-header-demo-buttons">
+                <a href="/" className="demo-btn"> Demo üçün müraciət edin </a>
+              </div>
           </div>
           <div className="main-header-content-img">
-            {/* <img src="./assets//iPhone 12 Pro.png" alt="/content"> */}
-            <img src="./assets//iPhone 12 Pro.png" alt="" />
+            <img src={headimg} alt="ednify" />
           </div>
+          
         </div>
       </section>
   )
