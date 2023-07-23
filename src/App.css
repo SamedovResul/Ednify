@@ -1,6 +1,6 @@
 
 nav{
-  background-color: #3867d6;
+  background-color: #0973ba;
   height: 80px;
   position: sticky;
   top: 0;
@@ -8,6 +8,7 @@ nav{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  z-index: 999;
 }
 
 nav div {
@@ -47,7 +48,7 @@ nav ul li:nth-of-type(2){
 }
 
 nav ul li:nth-of-type(2) a{
-  color: #3867d6;
+  color: #197dbf;
   font-size: 20px;
   font-weight: 600;
 }
@@ -69,7 +70,7 @@ nav ul li:nth-of-type(2) a{
   }
   
   nav ul li:nth-of-type(2) a{
-    color: #3867d6;
+    color: #197dbf;
     font-size: 15px;
     font-weight: 600;
   }
@@ -79,7 +80,7 @@ nav ul li:nth-of-type(2) a{
 /* section one  */
 
 .SectionOne {
-  background-color: #567dd7;
+  background-color: #197dbf;
   padding:60px 0px;
   display: flex;
   flex-direction: column;
@@ -92,20 +93,23 @@ nav ul li:nth-of-type(2) a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
 }
 
 .SectionOne 
 .text-box h4{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.5rem;  
+  color: #fff;
 }
 
 .SectionOne
 .text-box p:nth-of-type(1){
   font-size: 20px;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .SectionOne
@@ -113,7 +117,7 @@ nav ul li:nth-of-type(2) a{
   display: inline-block;
   background-color: #fff;
   box-shadow: 0 5px 25px -3px #3867d6;
-  color: #3867d6;
+  color: #197dbf;
   cursor: pointer;
   padding: 10px 20px;
   border-radius: 50px;
@@ -165,30 +169,72 @@ nav ul li:nth-of-type(2) a{
 /* section two */
 
 .SectionTwo
+.container{
+  position: relative;
+  top: -30px;
+}
+
+.SectionTwo
 .head_text{
   text-align: center;
+  background-color: #197dbf;
+  padding: 60px 0px;
 }
 
 .SectionTwo
 .head_text h4{
-  margin: 50px auto;
-  color: #536c79;
+  /* margin: 50px auto; */
+  color: #f6f6ff;
   font-size: 1.5rem;
   font-weight: 800;
 }
 
+.SectionTwo 
+.col-md-4{
+  box-shadow: 0 0 50px -4px #c2cfd6;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.SectionTwo
+.row > div:nth-child(1) {
+  position: relative;
+  left: 10px;
+  z-index: 1;
+}
+
+.SectionTwo
+.row > div:nth-child(2) {
+  position: relative;
+  left: 5px;
+  z-index: 2;
+}
+
+.SectionTwo
+.row > div:nth-child(3) {
+  z-index: 3;
+}
 
 .SectionTwo
 .text-box {
-  box-shadow: 0 0 20px -4px #c2cfd6;
-  padding: 10px;
+  text-align: center;
   height: 100%;
+}
+
+.SectionTwo
+.text-box ul{
+  padding-left: 0px;
+}
+
+.SectionTwo
+.text-box ul li{
+  list-style: none;
 }
 
 .SectionTwo
 .text-box p:nth-of-type(1){
   font-size: 1rem;
-  color: #3867d6;
+  color: #197dbf;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -199,10 +245,34 @@ nav ul li:nth-of-type(2) a{
   .col-md-4 {
     margin: 10px auto;
   }
+
+  .SectionTwo 
+  .row > div{
+    box-shadow: none;
+    position: static !important;
+  }
+
+  .SectionTwo
+  .container{
+    position: static;
+    margin: 10px auto ;
+  }
+
+  .SectionTwo
+  .text-box{
+    box-shadow: 0 0 20px -4px #c2cfd6;
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+
 }
 
 
 /* section three */
+
+.SectionThree{
+  margin-bottom: 40px;
+}
 
 .SectionThree
 .head_text{
@@ -212,7 +282,7 @@ nav ul li:nth-of-type(2) a{
 .SectionThree
 .head_text h4{
   margin: 50px auto 20px auto;
-  color: #3867d6;
+  color: #197dbf;
   font-size: 20px;
   font-weight: 800;
 }
@@ -226,7 +296,7 @@ nav ul li:nth-of-type(2) a{
 .text-box{
   padding: 15px;
   background-color: #fff;
-  border-left: 5px solid #3867d6;
+  border-left: 5px solid #197dbf;
   box-shadow: 0 0 20px -4px #c2cfd6;
   height: 100%;
 }
@@ -242,7 +312,7 @@ nav ul li:nth-of-type(2) a{
 /* section four */
 
 .SectionFour{
-  background-color: #2456cd;
+  background-color: #197dbf;
   margin-bottom: 20px auto;
 }
 
@@ -288,6 +358,10 @@ nav ul li:nth-of-type(2) a{
   
 }
 
+.Footer{
+  padding: 30px;
+}
+
 .Footer .box{
   display: flex;
   flex-direction: column;
@@ -307,9 +381,9 @@ nav ul li:nth-of-type(2) a{
 }
 
 .Footer .box div i{
-  background-color: #3867d6;
+   background-color: #197dbf;
     border-radius: 8px;
-    box-shadow: 0 5px 25px -3px #3867d6;
+    box-shadow: 0 5px 25px -3px #197dbf;
     color: #fff;
     cursor: pointer;
     font-size: 15px;

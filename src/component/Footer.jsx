@@ -12,9 +12,11 @@ const Footer = () => {
             <div className='box'>
               <h5> Edinify </h5>
               <div>
-                <i className="fa-brands fa-facebook-f">  </i>
-                <a href="https://instagram.com/ed_nify?igshid=MzRlODBiNWFlZA==" target='blank'>
-                <i className="fa-brands fa-instagram"> </i>
+                <a href="https://www.facebook.com/profile.php?id=100092927136293&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+                  <i className="fa-brands fa-facebook-f">  </i>
+                </a>
+                <a href="https://instagram.com/ed_nify?igshid=MzRlODBiNWFlZA==" target='_blank'>
+                  <i className="fa-brands fa-instagram"> </i>
                 </a> 
               </div>
               <p> Copyright {date.getFullYear()} </p>
