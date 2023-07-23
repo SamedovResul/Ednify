@@ -6,6 +6,9 @@ const Navbar = () => {
   return (
     <nav>
       <div>
+        {/* <div className="logo">
+          <p> Edinify </p>
+        </div> */}
         <ul>
           <li>
             <Link to='/' > Əsas </Link>

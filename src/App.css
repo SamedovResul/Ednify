@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: myFont ;
+  src: url('./component/Roboto-Bold.ttf');
+}
+
 nav{
   background-color: #0973ba;
   height: 80px;
@@ -14,7 +19,15 @@ nav{
 nav div {
   width: 90%;
   margin: auto;
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
+
+/* 
+.logo p{
+  
+  font-family: 'Audiowide', sans-serif;
+} */
 
 nav ul {
   display: flex;
@@ -375,9 +388,13 @@ nav ul li:nth-of-type(2) a{
   margin: 15px;
 }
 
+
+
 .Footer .box h5 {
+  font-family: 'Audiowide', cursive;
   font-size: 30px;
   margin: 20px;
+  
 }
 
 .Footer .box div i{
@@ -407,7 +424,7 @@ nav ul li:nth-of-type(2) a{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 body, html {
