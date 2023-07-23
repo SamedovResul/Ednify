@@ -4,18 +4,18 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Main from './component/Main';
 import RequestDemo from './component/RequestDemo';
-// import Navigation from './component/navigation';
-// import Footer from './component/Footer';
+import Navigation from './component/Navbar';
+import Footer from './component/Footer';
 
 function App() {
   return (
     <Router>
-      {/* <Navigation /> */}
+      <Navigation />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path='/demo' element={<RequestDemo />}/>
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </Router>
   );
 }
