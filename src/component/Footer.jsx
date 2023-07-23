@@ -1,23 +1,28 @@
 import React from 'react'
 
 const Footer = () => {
+
+  const date = new Date()
+
   return (
-    <footer className="footer">
-        <div className="footer-container">
-            <div className="footer-content-container">
-                <h2> Edinify </h2>
-                <div className="social-media-icons">
-                    <i className="fa-brands fa-facebook-f">  </i>
-                     <a href="https://instagram.com/ed_nify?igshid=MzRlODBiNWFlZA==" target='blank'>
-                     <i className="fa-brands fa-instagram"> </i>
-                    </a> 
-                </div>
+    <footer className='Footer'>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className='box'>
+              <h5> Edinify </h5>
+              <div>
+                <i className="fa-brands fa-facebook-f">  </i>
+                <a href="https://instagram.com/ed_nify?igshid=MzRlODBiNWFlZA==" target='blank'>
+                <i className="fa-brands fa-instagram"> </i>
+                </a> 
+              </div>
+              <p> Copyright {date.getFullYear()} </p>
             </div>
-            <div className="copy-text">
-                <p>Copyright ©2023</p>
-            </div>
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   )
 }
 
