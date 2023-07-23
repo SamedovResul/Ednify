@@ -12,8 +12,8 @@ function App() {
     <Router>
       {/* <Navigation /> */}
       <Routes>
-        {/* <Route path="/" element={<MainPage />} />
-        <Route path='/demo' element={<RequestDemo />}/> */}
+        <Route path="/" element={<MainPage />} />
+        <Route path='/demo' element={<RequestDemo />}/>
       </Routes>
       {/* <Footer/> */}
     </Router>
