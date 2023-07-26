@@ -561,7 +561,7 @@ a {
 }
 
 .demo-form-section .form-section .input-boxes-con .input-box input[type=text],
-.demo-form-section .form-section .input-boxes-con .input-box input[type=tel],
+.demo-form-section .form-section .input-boxes-con .input-box input[type=number],
 .demo-form-section .form-section .input-boxes-con .input-box input[type=email],
 .demo-form-section .form-section .input-boxes-con .input-box select {
   font-size: 13px;
