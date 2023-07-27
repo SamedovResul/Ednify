@@ -1,4 +1,9 @@
 import React from 'react'
+import img1 from './img/img1.jpg';
+import img2 from './img/img2.jpg';
+import img3 from './img/img3.jpg'
+
+
 
 const Section_Two = () => {
   return (
@@ -8,43 +13,22 @@ const Section_Two = () => {
       </div>
       <div className="container">
         <div className="row">
-          {/* <div className="col-md-12">
-            <div className="head_text">
-              <h4>  Təkliflərimiz </h4>
-            </div>
-          </div> */}
 
           <div className="col-md-4">
-            <div className="text-box">
-              <p>Davamiyyət</p>
-              <ul>
-                <li>Tələbə davamiyyəti</li>
-                <li>uğurlu və uğursuz dərslər</li>
-                <li> ümumi cədvəllər </li>
-              </ul>
+            <div className="img-box">
+              <img src={img1} alt="" />
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className="text-box">
-              <p>Əmək haqları</p>
-              {/* <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul> */}
-              <p>Saat hesabı və ya aylıq əmək haqqlarının hesablanması</p>
+            <div className="img-box">
+              <img src={img2} alt="" />
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className="text-box">
-              <p>Tələbə</p>
-              <ul>
-                <li>Tələbə davamiyyətinin</li>
-                <li>ev tapşırıqlarının və qalıq dərslərin izlənməsi</li>
-              </ul>
-              {/* <p>Tələbə davamiyyətinin , ev tapşırıqlarının və qalıq dərslərin izlənməsi</p> */}
+            <div className="img-box">
+              <img src={img3} alt="" />
             </div>
           </div>
 

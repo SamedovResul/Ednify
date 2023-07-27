@@ -10,7 +10,7 @@ const Section_Four = () => {
             <div className="text-box">
               <span>4</span>
               <div>
-                <i className="fa-solid fa-gear"></i>
+              <i class="fa-solid fa-building-columns"></i>
                 <p>Təhsil mərkəzləri</p>
               </div>
             </div>
@@ -20,7 +20,7 @@ const Section_Four = () => {
             <div className="text-box">
               <span>1</span>
               <div>
-                <i className="fa-solid fa-gear"></i>
+              <i class="fa-solid fa-school"></i>
                 <p>Məktəbə qədər təhsil müəssisəsi</p>
               </div>
             </div>
@@ -30,7 +30,7 @@ const Section_Four = () => {
             <div className="text-box">
               <span>400</span>
               <div>
-                <i className="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
                 <p>Tələbə və Müəllim</p>
               </div>
             </div>
@@ -40,7 +40,7 @@ const Section_Four = () => {
             <div className="text-box">
               <span>1000</span>
               <div>
-                <i className="fa-solid fa-gear"></i>
+              <i class="fa-solid fa-clock"></i>
                 <p>Aylıq dərs saatı</p>
               </div>
             </div>

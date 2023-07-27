@@ -4,16 +4,28 @@ import Swal from 'sweetalert2'
 // http://localhost:4000
 
 export const senEmail = async (Data) =>{
-  console.log(Data);
+  
   try {
-    
+    Swal.fire(
+			{	
+				title: ' istək göndərildi ',
+        color:"green",
+				timerProgressBar: true,
+				showConfirmButton:false,
+				timer: 2000,
+			}
+		)
     const {data} = await axios.post("https://enteskcrmserver.azurewebsites.net/api/demo/send",
     Data)
     if(data){
       Swal.fire(
-        'Good job!',
-        'You clicked the button!',
-        'success'
+        {	
+          title: ' tezliklə sizinlə əlaqə saxlanılacaq ',
+          color:"green",
+          timerProgressBar: true,
+          showConfirmButton:false,
+          timer: 2000,
+        }
       )
     }
   } catch (error) {

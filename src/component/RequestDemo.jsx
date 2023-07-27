@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { senEmail } from '../email/email'
-
+import Swal from 'sweetalert2'
 
 const RequestDemo = ({setdata,data}) => {
 	let [Class, setClass] = useState([])
@@ -44,14 +44,13 @@ const RequestDemo = ({setdata,data}) => {
 	}
 	const sendData = (e) =>{
 		e.preventDefault()
-		console.log(true)
 		senEmail(data)
 	}
 	
 	console.log(data);
   return (
-    <main>
-			<section className="demo-form-section">
+    <main  >
+			<section className="demo-form-section ">
 				<div className="demo-form-con">
 					<div className="form-title">
 							<h2> Xoş gəldiniz </h2>
@@ -59,9 +58,10 @@ const RequestDemo = ({setdata,data}) => {
 
 					<div className="form-description">
 							<p>
-								Edinify ilə siz tələbə qeydiyyatı, müəllimlərin qeydiyyatı,
-									kursun idarə edilməsi, qiymətləndirmə və statistik məlumatları asanlıqla 
-									idarə edə bilərsiniz.
+								Edinify ilə Siz mərkəzinizin aylıq hesabatlarını 
+								tələbə/müəllim qeydiyyatını, müəllimlərin əmək haqlarını,
+								davamiyyətə nəzarəti və bunun kimi bir çox işləri mərkəzləşdirilmiş 
+								platformada asanlıqla idarə edə bilərsiz.
 							</p>
 					</div>
 
@@ -82,10 +82,10 @@ const RequestDemo = ({setdata,data}) => {
 												onClick={() =>addFunction("Ödəniş bildirişləri")}>Ödəniş bildirişləri</div>
 											<div className={ 
 												`choice-btn ${data.features.filter((key) => {
-													return key === "Müəllim qeydiyyatı" ? true : false
-												}).includes("Müəllim qeydiyyatı") ? 'active': '' }`
+													return key === "Dashboard / analitika" ? true : false
+												}).includes("Dashboard / analitika") ? 'active': '' }`
 											}
-												onClick={() =>addFunction("Müəllim qeydiyyatı")}>Müəllim qeydiyyatı</div>
+												onClick={() =>addFunction("Dashboard / analitika")}>Dashboard / analitika</div>
 											<div className={ 
 												`choice-btn ${data.features.filter((key) => {
 													return key === "Müəllim / Tələbə cədvəlləri" ? true : false
@@ -104,6 +104,12 @@ const RequestDemo = ({setdata,data}) => {
 												}).includes("Ad günü bildirişləri") ? 'active': '' }`
 											} 
 												onClick={() =>addFunction("Ad günü bildirişləri")}>Ad günü bildirişləri</div>
+												<div className={ 
+												`choice-btn ${data.features.filter((key) => {
+													return key === "Tələbə interfeysi" ? true : false
+												}).includes("Tələbə interfeysi") ? 'active': '' }`
+											} 
+												onClick={() =>addFunction("Tələbə interfeysi")}>Tələbə interfeysi</div>
 									</div>
 							</div>
 
@@ -116,7 +122,7 @@ const RequestDemo = ({setdata,data}) => {
 
 									<div className="input-boxes-con">
 									<div className="input-box">
-											<label htmlFor="">Şirkət Adı</label>
+											<label htmlFor="">Şirkət adı</label>
 											<input type="text" onChange={(e) => setdata({
 												...data,
 												companyName:e.target.value
@@ -200,10 +206,10 @@ const RequestDemo = ({setdata,data}) => {
 											onClick={() =>addFunctionForNumber("09:00-11:00")}>09:00-11:00</div>
 										<div className={ 
 											`choice-btn ${data.contactTime.filter((key) => {
-												return key === "2:00-14:00" ? true : false
-											}).includes("2:00-14:00") ? 'active': '' }`
+												return key === "12:00-14:00" ? true : false
+											}).includes("12:00-14:00") ? 'active': '' }`
 											}
-											onClick={() =>addFunctionForNumber("2:00-14:00")}>2:00-14:00</div>
+											onClick={() =>addFunctionForNumber("12:00-14:00")}>12:00-14:00</div>
 										<div className={ 
 											`choice-btn ${data.contactTime.filter((key) => {
 												return key === "15:00-17:00" ? true : false
