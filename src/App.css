@@ -1,8 +1,4 @@
 
-@font-face {
-  font-family: myFont ;
-  src: url('./component/Roboto-Bold.ttf');
-}
 
 nav{
   background-color: #0973ba;
@@ -249,7 +245,7 @@ nav ul li:nth-of-type(2) a{
 .img-box div {
   height: 200px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   border-radius: 20px;
 }
@@ -267,30 +263,12 @@ nav ul li:nth-of-type(2) a{
   background-image: url('./component/img/img3.jpg');
 }
 
-/* .SectionTwo
-.img-box div img{
-  width: 80%;
-  height: auto;
-  border-radius: 10px;
-} */
-
-/* .SectionTwo
-.text-box ul{
-  padding-left: 0px;
+@media(max-width:1199px){
+  .SectionTwo
+  .img-box div{
+    height: 160px;
+  }
 }
-
-.SectionTwo
-.text-box ul li{
-  list-style: none;
-}
-
-.SectionTwo
-.text-box p:nth-of-type(1){
-  font-size: 1rem;
-  color: #197dbf;
-  font-weight: 600;
-  margin-bottom: 10px;
-} */
 
 
 @media(max-width:768px){
@@ -307,10 +285,10 @@ nav ul li:nth-of-type(2) a{
   .col-md-4{
     padding: 5px 15px;
   }
-  /* .SectionTwo 
-  .col-md-4{
-    padding: 10px 20px;
-  } */
+  .SectionTwo
+  .img-box div{
+    background-size: cover;
+  }
 }
 
 @media(max-width:567px){
@@ -323,6 +301,9 @@ nav ul li:nth-of-type(2) a{
   .SectionTwo .row > div:nth-child(3){
     position: relative;
     left: -5px;
+  }
+  .SectionTwo .head_text{
+    padding: 40px 0px 60px 0px;
   }
 }
 
