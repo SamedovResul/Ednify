@@ -1,9 +1,9 @@
 import React from 'react'
-import img from './img/miguelangel-miquelena-Rc-4YdHRrOs-unsplash.jpg'
 import { Link } from 'react-router-dom'
 
 
 const sectionOne = () => {
+  const img = "https://res.cloudinary.com/djzudd6ub/image/upload/v1690714070/miguelangel-miquelena-Rc-4YdHRrOs-unsplash_ibzdjv.jpg"
   return (
     <div className='SectionOne' >
       <div className="container">

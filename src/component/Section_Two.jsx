@@ -1,7 +1,4 @@
 import React from 'react'
-import img1 from './img/img1.jpg';
-import img2 from './img/img2.jpg';
-import img3 from './img/img3.jpg'
 
 
 
@@ -9,7 +6,7 @@ const Section_Two = () => {
   return (
     <div className="SectionTwo">
       <div className="head_text">
-        <h4> 3  Tərəfli istifadə </h4>
+        <h4> Üç  tərəfli istifadə </h4>
       </div>
       <div className="container">
         <div className="row">
