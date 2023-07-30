@@ -14,21 +14,30 @@ const Section_Two = () => {
       <div className="container">
         <div className="row">
 
-          <div className="col-md-4">
-            <div className="img-box">
-              <img src={img1} alt="" />
+          <div className="col-md-4 col-sm-4 col-4 ">
+            <div className="img-box ">
+              <p>Müəllim</p>
+              <div className='teacher'>
+                {/* <img src={img1} alt="" /> */}
+              </div>
             </div>
           </div>
 
-          <div className="col-md-4">
-            <div className="img-box">
-              <img src={img2} alt="" />
+          <div className="col-md-4 col-sm-4 col-4">
+            <div className="img-box ">
+              <p> Rəhbər </p>
+              <div className='ceo'>
+                {/* <img src={img2} alt="" /> */}
+              </div>
             </div>
           </div>
 
-          <div className="col-md-4">
-            <div className="img-box">
-              <img src={img3} alt="" />
+          <div className="col-md-4 col-sm-4 col-4">
+            <div className="img-box ">
+              <p> Tələbə </p>
+              <div className='student'>
+                {/* <img src={img3} alt="" /> */}
+              </div>
             </div>
           </div>
 
