@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import SwiperImg1 from './img/swiper-slide1.jpeg'
 import SwiperImg2 from './img/swiper-slide2.jpeg'
+import SwiperImg3 from './img/swiper-slider3.png'
+import SwiperImg4 from './img/swiper-slider4.png'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -52,6 +54,16 @@ const sectionOne = () => {
               <SwiperSlide>
                 <div className='img-box'>
                   <img src={SwiperImg2} alt="" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='img-box'>
+                  <img src={SwiperImg3} alt="" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='img-box'>
+                  <img src={SwiperImg4} alt="" />
                 </div>
               </SwiperSlide>
            </Swiper>
