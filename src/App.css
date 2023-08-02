@@ -190,12 +190,10 @@ nav ul li:nth-of-type(2) a{
   padding: 60px 0px;
 }
 
-    /* .SectionTwo
-    .head_text h4{
-      color: #f6f6ff;
-      font-size: 1.5rem;
-      font-weight: 800;
-    } */
+.SectionTwo
+.head_text h4{
+  color: white;
+}
 
 .SectionTwo 
 .col-md-4{
