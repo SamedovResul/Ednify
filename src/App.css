@@ -660,8 +660,18 @@ a {
   cursor: pointer;
 }
 
+.demo-form-section .submit-btn:disabled {
+  background-color: #7c8ff5;
+  pointer-events: none;
+}
+
 .demo-form-section .submit-btn:hover {
   background-color: #2c4cff;
+}
+
+.err-message {
+  color: red;
+  font-size: 13px;
 }
 
 @media only screen and (max-width: 768px) {
