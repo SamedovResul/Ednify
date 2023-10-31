@@ -243,16 +243,16 @@ nav ul li:nth-of-type(2) a{
 
 .SectionTwo
 .teacher{
-  background-image: url('./component/img/img1.jpg');
+  background-image: url('/src/assets/img//img1.jpg');
  
 }
 .SectionTwo
 .ceo{
-  background-image: url('./component/img/img2.jpg');
+  background-image: url('/src/assets/img//img2.jpg');
 }
 .SectionTwo
 .student{
-  background-image: url('./component/img/img3.jpg');
+  background-image: url('/src/assets/img//img3.jpg');
 }
 
 @media(max-width:1199px){
