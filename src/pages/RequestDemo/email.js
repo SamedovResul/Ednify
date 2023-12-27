@@ -15,7 +15,7 @@ export const senEmail = async (Data) =>{
 				timer: 2000,
 			}
 		)
-    const {data} = await axios.post("https://enteskcrmserver.azurewebsites.net/api/demo/send",
+    const {data} = await axios.post("https://enteskcrmserver.azurewebsites.net/api/email/edinify",
     Data)
     if(data){
       Swal.fire(
