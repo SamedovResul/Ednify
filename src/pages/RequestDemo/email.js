@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 // http://localhost:4000
 
 export const senEmail = async (Data) =>{
-  
+  console.log(Data)
   try {
     Swal.fire(
 			{	
