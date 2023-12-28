@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { senEmail } from "./email";
+import { sendEmail } from "./email";
 import { useFormik } from "formik";
 import { ValidationSchema } from "./ValidationSchema";
 
@@ -67,7 +67,7 @@ const RequestDemo = ({ setdata, data }) => {
   };
   const sendData = (e) => {
     e.preventDefault();
-    senEmail(data);
+    sendEmail(data,setdata);
   };
 
   console.log(data.contactTime.length);
@@ -197,6 +197,7 @@ const RequestDemo = ({ setdata, data }) => {
                 <div className="input-box">
                   <label htmlFor="">Şirkət adı</label>
                   <input
+                    value={data.companyName}
                     type="text"
                     onChange={(e) => {
                       setdata({ ...data, companyName: e.target.value });
@@ -214,6 +215,7 @@ const RequestDemo = ({ setdata, data }) => {
                 <div className="input-box">
                   <label htmlFor="">Tələbə sayı</label>
                   <select
+                  value={data.studentCount}
                     onChange={(e) => {
                       setdata({ ...data, studentCount: e.target.value });
                       setInputValue("studentCount", e.target.value);
@@ -244,6 +246,7 @@ const RequestDemo = ({ setdata, data }) => {
                   <label htmlFor="">Ad</label>
                   <input
                     type="text"
+                    value={data.name}
                     onChange={(e) => {
                       setdata({ ...data, name: e.target.value });
                       setInputValue("name", e.target.value);
@@ -259,6 +262,7 @@ const RequestDemo = ({ setdata, data }) => {
                   <label htmlFor="">Soyad</label>
                   <input
                     type="text"
+                    value={data.surName}
                     onChange={(e) => {
                       setdata({ ...data, surName: e.target.value });
                       setInputValue("surName", e.target.value);
@@ -275,6 +279,7 @@ const RequestDemo = ({ setdata, data }) => {
                   <div className="input-with-checkbox">
                     <input
                       type="email"
+                      value={data.email}
                       onChange={(e) => {
                         setdata({ ...data, email: e.target.value });
                         setInputValue("email", e.target.value);
@@ -292,6 +297,7 @@ const RequestDemo = ({ setdata, data }) => {
                   <div className="input-with-checkbox">
                     <input
                       type="number"
+                      value={data.phone}
                       onChange={(e) => {
                         setdata({ ...data, phone: e.target.value });
                         setInputValue("phone", e.target.value);

@@ -3,7 +3,7 @@ import Swal from 'sweetalert2'
 // https://enteskcrmserver.azurewebsites.net/api/demo/send
 // http://localhost:4000
 
-export const senEmail = async (Data) =>{
+export const sendEmail = async (Data,setdata) =>{
   console.log(Data)
   try {
     Swal.fire(
@@ -27,7 +27,16 @@ export const senEmail = async (Data) =>{
           timer: 2000,
         }
       )
-    }
+      setdata({
+        features:[],
+        companyName:'',
+        studentCount:'',
+        name:'',
+        surName:'',
+        email:'',
+        phone:'',
+        contactTime:[]
+      })    }
   } catch (error) {
     console.log(error)
   }
