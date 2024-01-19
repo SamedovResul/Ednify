@@ -21,14 +21,14 @@ const sectionOne = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="text-box">
-              <h4>Biznesinizi sürətli, dəqiq və rahat
+              <h4>Your business is fast, accurate and convenient
                 <br />
-                idarə edin
+                manage it
               </h4>
-              <p>Davamiyyət, tapşırıqlar, əmək haqqları üçün vahid platforma.</p>
+              <p>A single platform for attendance, assignments wages.</p>
               <div>
               <Link to="/demo">
-                Demo üçün müraciət edin 
+                Apply for a demo 
               </Link>
               </div>
             </div>

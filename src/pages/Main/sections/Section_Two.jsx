@@ -8,14 +8,14 @@ const Section_Two = () => {
   return (
     <div className="SectionTwo">
       <div className="head_text">
-        <h4> Üç  tərəfli istifadə </h4>
+        <h4> Three-way use </h4>
       </div>
       <div className="container">
         <div className="row">
 
           <div className="col-md-4 col-sm-4 col-4 ">
             <div className="img-box ">
-              <p> Rəhbər</p>
+              <p> Leader</p>
               <div className='teacher'>
                 {/* <img src={img1} alt="" /> */}
               </div>
@@ -24,7 +24,7 @@ const Section_Two = () => {
 
           <div className="col-md-4 col-sm-4 col-4">
             <div className="img-box ">
-              <p> Müəllim </p>
+              <p> Teacher  </p>
               <div className='ceo'>
                 {/* <img src={img2} alt="" /> */}
               </div>
@@ -33,7 +33,7 @@ const Section_Two = () => {
 
           <div className="col-md-4 col-sm-4 col-4">
             <div className="img-box ">
-              <p> Tələbə </p>
+              <p> Student </p>
               <div className='student'>
                 {/* <img src={img3} alt="" /> */}
               </div>

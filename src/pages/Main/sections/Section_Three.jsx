@@ -7,14 +7,14 @@ const Section_Three = () => {
         <div className="row">
           <div className="col-md-12 ">
             <div className="head_text">
-              <h4>   Funksionallıqlar  </h4>
+              <h4>   Functionalities  </h4>
             </div>
           </div>
 
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-id-card"></i>
-              <p>Tələbə qeydiyyatı</p>
+              <p>Student registration</p>
             </div>
           </div>
 
@@ -22,35 +22,35 @@ const Section_Three = () => {
             <div className="text-box">
             <i className="fa-solid fa-bell"></i>
               
-              <p>Ödəniş bildirişləri</p>
+              <p>Payment notice</p>
             </div>
           </div>
 
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-id-card"></i>
-              <p>Müəllim qeydiyyatı</p>
+              <p>Teahcer registration</p>
             </div>
           </div>
 
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-table"></i>
-              <p>Müəllim / Tələbə cədvəlləri</p>
+              <p>Teahcer / Student schedules</p>
             </div>
           </div>
 
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-clipboard-user"></i>
-              <p>Davamiyyətə nəzarət</p>
+              <p>Attendance control</p>
             </div>
           </div>
 
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-cake-candles"></i>
-              <p>Ad günü bildirişləri</p>
+              <p>Birthday notifications</p>
             </div>
           </div>
         </div>

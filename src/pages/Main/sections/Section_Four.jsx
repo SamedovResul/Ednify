@@ -11,7 +11,7 @@ const Section_Four = () => {
               <span>4</span>
               <div>
               <i className="fa-solid fa-building-columns"></i>
-                <p>Təhsil mərkəzləri</p>
+                <p>Educational centers</p>
               </div>
             </div>
           </div>
@@ -21,7 +21,7 @@ const Section_Four = () => {
               <span>1</span>
               <div>
               <i className="fa-solid fa-school"></i>
-                <p>Məktəbə qədər təhsil müəssisəsi</p>
+                <p>Pre-school educational institution</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Section_Four = () => {
               <span>400</span>
               <div>
                 <i className="fa-solid fa-chalkboard-user"></i>
-                <p>Tələbə və Müəllim</p>
+                <p>Student and Teacher</p>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Section_Four = () => {
               <span>1000</span>
               <div>
               <i className="fa-solid fa-clock"></i>
-                <p>Aylıq dərs saatı</p>
+                <p>Monthly lesson time</p>
               </div>
             </div>
           </div>
