@@ -11,10 +11,10 @@ const Navbar = () => {
         </div> */}
         <ul>
           <li>
-            <Link to='/' > Əsas </Link>
+            <Link to='/' > Main </Link>
           </li>
           <li>
-          <Link to='/demo' > Demo üçün müraciət edin </Link> 
+          <Link to='/demo' > Apply for a demo  </Link> 
           </li>
         </ul>
       </div>

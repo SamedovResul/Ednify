@@ -77,15 +77,12 @@ const RequestDemo = ({ setdata, data }) => {
       <section className="demo-form-section ">
         <div className="demo-form-con">
           <div className="form-title">
-            <h2> Xoş gəldiniz </h2>
+            <h2> Welcome </h2>
           </div>
 
           <div className="form-description">
             <p>
-              Edinify ilə Siz mərkəzinizin aylıq hesabatlarını tələbə/müəllim
-              qeydiyyatını, müəllimlərin əmək haqlarını, davamiyyətə nəzarəti və
-              bunun kimi bir çox işləri mərkəzləşdirilmiş platformada asanlıqla
-              idarə edə bilərsiz.
+            With Edinify, you can easily manage your center's monthly reports, student/teacher registration, teacher salaries, attendance tracking and more on a centralized platform.
             </p>
           </div>
 
@@ -94,8 +91,7 @@ const RequestDemo = ({ setdata, data }) => {
           <form action="">
             <div className="form-section">
               <h4 htmlFor="">
-                1. Təhsil mərkəziniz üçün hansı xüsusiyyətləri aktiv etmək
-                istəyirsiniz?
+                1. What features do you want to enable for your learning center?
               </h4>
 
               <div className="choices-con">
@@ -103,87 +99,87 @@ const RequestDemo = ({ setdata, data }) => {
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Ödəniş bildirişləri" ? true : false;
+                        return key === "Payment notices" ? true : false;
                       })
-                      .includes("Ödəniş bildirişləri")
+                      .includes("Payment notices")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Ödəniş bildirişləri")}
+                  onClick={() => addFunction("Payment notices")}
                 >
-                  Ödəniş bildirişləri
+                  Payment notices
                 </div>
                 <div
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Dashboard / analitika" ? true : false;
+                        return key === "Dashboard / analytics" ? true : false;
                       })
-                      .includes("Dashboard / analitika")
+                      .includes("Dashboard / analytics")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Dashboard / analitika")}
+                  onClick={() => addFunction("Dashboard / analytics")}
                 >
-                  Dashboard / analitika
+                  Dashboard / analytics
                 </div>
                 <div
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Müəllim / Tələbə cədvəlləri"
+                        return key === "Teacher / Student schedules"
                           ? true
                           : false;
                       })
-                      .includes("Müəllim / Tələbə cədvəlləri")
+                      .includes("Teacher / Student schedules")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Müəllim / Tələbə cədvəlləri")}
+                  onClick={() => addFunction("Teacher / Student schedules")}
                 >
-                  Müəllim / Tələbə cədvəlləri
+                  Teacher / Student schedules
                 </div>
                 <div
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Davamiyyətə nəzarət" ? true : false;
+                        return key === "Attendance control" ? true : false;
                       })
-                      .includes("Davamiyyətə nəzarət")
+                      .includes("Attendance control")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Davamiyyətə nəzarət")}
+                  onClick={() => addFunction("Attendance control")}
                 >
-                  Davamiyyətə nəzarət
+                  Attendance control
                 </div>
                 <div
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Ad günü bildirişləri" ? true : false;
+                        return key === "Birthday notifications" ? true : false;
                       })
-                      .includes("Ad günü bildirişləri")
+                      .includes("Birthday notifications")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Ad günü bildirişləri")}
+                  onClick={() => addFunction("Birthday notifications")}
                 >
-                  Ad günü bildirişləri
+                  Birthday notifications
                 </div>
                 <div
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Tələbə interfeysi" ? true : false;
+                        return key === "Student interface" ? true : false;
                       })
-                      .includes("Tələbə interfeysi")
+                      .includes("Student interface")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Tələbə interfeysi")}
+                  onClick={() => addFunction("Student interface")}
                 >
-                  Tələbə interfeysi
+                  Student interface
                 </div>
               </div>
             </div>
@@ -191,11 +187,11 @@ const RequestDemo = ({ setdata, data }) => {
             <div className="horizontal-divider"></div>
 
             <div className="form-section">
-              <h4>2. Şirkət haqqında</h4>
+              <h4>2. About the company</h4>
 
               <div className="input-boxes-con">
                 <div className="input-box">
-                  <label htmlFor="">Şirkət adı</label>
+                  <label htmlFor="">Company name</label>
                   <input
                     value={data.companyName}
                     type="text"
@@ -239,11 +235,11 @@ const RequestDemo = ({ setdata, data }) => {
             </div>
 
             <div className="form-section">
-              <h4 htmlFor="">3.Əlaqə məlumatı</h4>
+              <h4 htmlFor="">3.Contact information</h4>
 
               <div className="input-boxes-con">
                 <div className="input-box">
-                  <label htmlFor="">Ad</label>
+                  <label htmlFor="">Name</label>
                   <input
                     type="text"
                     value={data.name}
@@ -259,7 +255,7 @@ const RequestDemo = ({ setdata, data }) => {
                 )}
 
                 <div className="input-box">
-                  <label htmlFor="">Soyad</label>
+                  <label htmlFor="">Surname</label>
                   <input
                     type="text"
                     value={data.surName}
@@ -293,7 +289,7 @@ const RequestDemo = ({ setdata, data }) => {
                 )}
 
                 <div className="input-box">
-                  <label htmlFor="">Telefon</label>
+                  <label htmlFor="">Phone</label>
                   <div className="input-with-checkbox">
                     <input
                       type="number"
@@ -316,8 +312,8 @@ const RequestDemo = ({ setdata, data }) => {
 
             <div className="form-section">
               <h4 htmlFor="">
-                5. Sizinlə nə vaxt əlaqə saxlaya bilərik?
-                <span>Çoxlu seçim</span>
+                5. When can we contact you?
+                <span>Lots of choices</span>
               </h4>
 
               <div className="choices-con">
@@ -372,7 +368,7 @@ const RequestDemo = ({ setdata, data }) => {
                 </small>
               )}
 
-              <p>*İş günləri (bazar ertəsi-cümə) sizinlə əlaqə saxlayacağıq.</p>
+              <p>*We will contact you on business days (Monday-Friday).</p>
             </div>
 
             <button
