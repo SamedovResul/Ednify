@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import { register } from 'swiper/element/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import SwiperImg1 from '../../../assets/img/swiper-slide1.jpeg'
-import SwiperImg2 from '../../../assets/img/swiper-slide2.jpeg'
-import SwiperImg3 from '../../../assets/img/swiper-slider3.png'
-import SwiperImg4 from '../../../assets/img/swiper-slider4.png'
+// import SwiperImg1 from '../../../assets/img/swiper-slide1.jpeg'
+// import SwiperImg2 from '../../../assets/img/swiper-slide2.jpeg'
+import SwiperImg3 from '../../../assets/img/swiper-slide3.png'
+import SwiperImg4 from '../../../assets/img/swiper-slide4.png'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -46,7 +46,7 @@ const sectionOne = () => {
               modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper"
             >
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className='img-box'>
                   <img src={SwiperImg1} alt="" />
                 </div>
@@ -55,7 +55,7 @@ const sectionOne = () => {
                 <div className='img-box'>
                   <img src={SwiperImg2} alt="" />
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <div className='img-box'>
                   <img src={SwiperImg3} alt="" />
