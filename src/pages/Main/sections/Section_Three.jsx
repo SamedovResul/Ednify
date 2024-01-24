@@ -14,7 +14,7 @@ const Section_Three = () => {
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-id-card"></i>
-              <p>Student registration</p>
+              <p>Customer registration</p>
             </div>
           </div>
 
@@ -29,14 +29,14 @@ const Section_Three = () => {
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-id-card"></i>
-              <p>Teahcer registration</p>
+              <p>Marketplace</p>
             </div>
           </div>
 
           <div className="col-md-4 col-sm-6">
             <div className="text-box">
             <i className="fa-solid fa-table"></i>
-              <p>Teahcer / Student schedules</p>
+              <p>Employee / Customer schedules</p>
             </div>
           </div>
 

@@ -15,7 +15,7 @@ const Section_Two = () => {
 
           <div className="col-md-4 col-sm-4 col-4 ">
             <div className="img-box ">
-              <p> Leader</p>
+              <p>Manager</p>
               <div className='teacher'>
                 {/* <img src={img1} alt="" /> */}
               </div>
@@ -24,7 +24,7 @@ const Section_Two = () => {
 
           <div className="col-md-4 col-sm-4 col-4">
             <div className="img-box ">
-              <p> Teacher  </p>
+              <p> Employee </p>
               <div className='ceo'>
                 {/* <img src={img2} alt="" /> */}
               </div>
@@ -33,7 +33,7 @@ const Section_Two = () => {
 
           <div className="col-md-4 col-sm-4 col-4">
             <div className="img-box ">
-              <p> Student </p>
+              <p> Customer </p>
               <div className='student'>
                 {/* <img src={img3} alt="" /> */}
               </div>

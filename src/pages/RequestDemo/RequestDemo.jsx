@@ -82,7 +82,7 @@ const RequestDemo = ({ setdata, data }) => {
 
           <div className="form-description">
             <p>
-            With Edinify, you can easily manage your center's monthly reports, student/teacher registration, teacher salaries, attendance tracking and more on a centralized platform.
+            With Edinify, you can easily manage your center's monthly reports, customer/employee registration, payroll, attendance, tracking and more on a centralized platform.
             </p>
           </div>
 
@@ -113,13 +113,13 @@ const RequestDemo = ({ setdata, data }) => {
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Dashboard / analytics" ? true : false;
+                        return key === "Dashboard / Analytics" ? true : false;
                       })
-                      .includes("Dashboard / analytics")
+                      .includes("Dashboard / Analytics")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Dashboard / analytics")}
+                  onClick={() => addFunction("Dashboard / Analytics")}
                 >
                   Dashboard / analytics
                 </div>
@@ -127,17 +127,17 @@ const RequestDemo = ({ setdata, data }) => {
                   className={`choice-btn ${
                     data.features
                       .filter((key) => {
-                        return key === "Teacher / Student schedules"
+                        return key === "Employee / Customer schedules"
                           ? true
                           : false;
                       })
-                      .includes("Teacher / Student schedules")
+                      .includes("Employee / Customer schedules")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Teacher / Student schedules")}
+                  onClick={() => addFunction("Employee / Customer schedules")}
                 >
-                  Teacher / Student schedules
+                  Employee / Customer schedules
                 </div>
                 <div
                   className={`choice-btn ${
@@ -173,13 +173,13 @@ const RequestDemo = ({ setdata, data }) => {
                       .filter((key) => {
                         return key === "Student interface" ? true : false;
                       })
-                      .includes("Student interface")
+                      .includes("Marketplace interface")
                       ? "active"
                       : ""
                   }`}
-                  onClick={() => addFunction("Student interface")}
+                  onClick={() => addFunction("Marketplace interface")}
                 >
-                  Student interface
+                  Marketplace interface
                 </div>
               </div>
             </div>
@@ -209,7 +209,7 @@ const RequestDemo = ({ setdata, data }) => {
                 )}
 
                 <div className="input-box">
-                  <label htmlFor="">Tələbə sayı</label>
+                  <label htmlFor=""> Number of customer </label>
                   <select
                   value={data.studentCount}
                     onChange={(e) => {
@@ -219,11 +219,11 @@ const RequestDemo = ({ setdata, data }) => {
                     onBlur={() => formik.setFieldTouched("studentCount", true)}
                   >
                     <option></option>
-                    <option>20-dən azdır</option>
-                    <option>21 ilə 50 arasında</option>
-                    <option>51-dən 100-ə qədər</option>
-                    <option>101-dən 500-ə qədər</option>
-                    <option>500-dən çox</option>
+                    <option>20 or less</option>
+                    <option> between 21 and 50 </option>
+                    <option> between 51 and 100</option>
+                    <option>between 101 and 500</option>
+                    <option>500 and more</option>
                   </select>
                 </div>
                 {formik.errors.studentCount && formik.touched.studentCount && (

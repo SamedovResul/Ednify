@@ -8,7 +8,7 @@ const Section_Four = () => {
 
           <div className="col-md-3 col-sm-6 ">
             <div className="text-box">
-              <span>4</span>
+              <span>7</span>
               <div>
               <i className="fa-solid fa-building-columns"></i>
                 <p>Educational centers</p>
@@ -18,7 +18,7 @@ const Section_Four = () => {
 
           <div className="col-md-3 col-sm-6">
             <div className="text-box">
-              <span>1</span>
+              <span>2</span>
               <div>
               <i className="fa-solid fa-school"></i>
                 <p>Pre-school educational institution</p>
@@ -28,7 +28,7 @@ const Section_Four = () => {
 
           <div className="col-md-3 col-sm-6">
             <div className="text-box">
-              <span>400</span>
+              <span>1100</span>
               <div>
                 <i className="fa-solid fa-chalkboard-user"></i>
                 <p>Student and Teacher</p>

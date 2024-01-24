@@ -21,11 +21,10 @@ const sectionOne = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="text-box">
-              <h4>Your business is fast, accurate and convenient
-                <br />
-                manage it
+              <h4> Fast, accurate and growing business 
+              
               </h4>
-              <p>A single platform for attendance, assignments wages.</p>
+              <p>Framework to run your attendance,scheduling and payroll</p>
               <div>
               <Link to="/demo">
                 Apply for a demo 
